@@ -12,3 +12,5 @@
 	url = https://github.com/tmux-plugins/tpm
 [submodule "tpm"]
 	ignore = dirty
+[submodule "dotbot"]
+	ignore = dirty
