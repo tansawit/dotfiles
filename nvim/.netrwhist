@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/Applications'
+let g:netrw_dirhist_9='/Applications/MAMP'
+let g:netrw_dirhist_8='/Applications/MAMP/htdocs'
+let g:netrw_dirhist_7='/Applications/MAMP/htdocs/magento-quickstart'
+let g:netrw_dirhist_6='/Applications/MAMP/htdocs'
+let g:netrw_dirhist_5='/Applications/MAMP/htdocs/magento-quickstart'
+let g:netrw_dirhist_4='/Applications/MAMP/htdocs/magento-quickstart/vendor'
+let g:netrw_dirhist_3='/Applications/MAMP/htdocs/magento-quickstart/vendor/magento'
+let g:netrw_dirhist_2='/Applications/MAMP/htdocs/magento-quickstart/vendor/magento/module-webapi'
+let g:netrw_dirhist_1='/Applications/MAMP/htdocs/magento-quickstart/vendor/magento/module-webapi/etc'

@@ -1,0 +1,12 @@
+andrewferrier/fzf-z
+mafredri/zsh-async
+Tarrasch/zsh-bd
+zsh-users/zsh-completions
+zsh-users/zsh-autosuggestions branch:develop
+junegunn/fzf
+zsh-users/zsh-history-substring-search
+zsh-users/zsh-syntax-highlighting
+rupa/z
+b4b4r07/enhancd
+caarlos0/ports
+starship/starship 

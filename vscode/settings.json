@@ -1,0 +1,163 @@
+{
+  "editor.fontSize": 14,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Jetbrains Mono",
+  "editor.fontLigatures": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "materialTheme.fixIconsRunning": false,
+  "python.pythonPath": "/anaconda3",
+  "workbench.iconTheme": "ayu",
+  "editor.renderIndentGuides": false,
+  "window.zoomLevel": 0,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editor.highlightModifiedTabs": true,
+  "explorer.sortOrder": "type",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "blink",
+  "beautify.language": {
+    "js": []
+  },
+  "prettier.singleQuote": true,
+  "terminal.integrated.shell.osx": "zsh",
+  "python.jediEnabled": false,
+  "sshfs.configs": [
+    {
+      "name": "hbot-mongo"
+    }
+  ],
+  "cSpell.userWords": [
+    "pythainlp"
+  ],
+  "terminal.integrated.rendererType": "dom",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#00BCD4",
+    "list.activeSelectionForeground": "#00BCD4",
+    "list.inactiveSelectionForeground": "#00BCD4",
+    "list.highlightForeground": "#00BCD4",
+    "scrollbarSlider.activeBackground": "#00BCD450",
+    "editorSuggestWidget.highlightForeground": "#00BCD4",
+    "textLink.foreground": "#00BCD4",
+    "progressBar.background": "#00BCD4",
+    "pickerGroup.foreground": "#00BCD4",
+    "tab.activeBorder": "#00BCD4",
+    "notificationLink.foreground": "#00BCD4",
+    "editorWidget.resizeBorder": "#00BCD4",
+    "editorWidget.border": "#00BCD4",
+    "settings.modifiedItemIndicator": "#00BCD4",
+    "settings.headerForeground": "#00BCD4",
+    "panelTitle.activeBorder": "#00BCD4",
+    "breadcrumb.activeSelectionForeground": "#00BCD4",
+    "menu.selectionForeground": "#00BCD4",
+    "menubar.selectionForeground": "#00BCD4",
+    "editor.findMatchBorder": "#00BCD4",
+    "selection.background": "#00BCD440"
+  },
+  "materialTheme.accent": "Cyan",
+  "material-icon-theme.saturation": 1,
+  "editor.formatOnType": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "handlebars",
+    "haskell",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
+  ],
+  "markdown.extension.toc.githubCompatibility": true,
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
+    },
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
+    },
+    {
+      "name": "Gatsby Purple",
+      "value": "#639"
+    },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "peacock.affectedSettings": [
+    "activityBar",
+    "statusBar",
+    "titleBar"
+  ],
+  "workbench.startupEditor": "newUntitledFile",
+  "vim.neovimPath": "/usr/local/bin/nvim",
+  "editor.matchBrackets": false,
+  "terminal.external.osxExec": "iTermapp",
+  "python.dataScience.sendSelectionToInteractiveWindow": false,
+  "workbench.colorTheme": "Nord"
+}

@@ -1,0 +1,35 @@
+#zshrc
+TERM=screen-256color
+source ~/.zsh_plugins.sh
+source ~/.dotfiles/zsh/functions/functions.zsh
+source ~/.dotfiles/zsh/functions/git-functions.zsh
+source ~/.dotfiles/zsh/alias.zsh
+source ~/.dotfiles/zsh/bindings.zsh
+source ~/.dotfiles/zsh/options.zsh
+source ~/.dotfiles/zsh/env.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(starship init zsh)"
+eval $(thefuck --alias)
+eval "$(rbenv init -)"
+# export PATH="/usr/local/opt/php@7.3/bin:$PATH"
+# export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
+export PATH="/Applications/MAMP/bin/php/php7.1.31/bin:$PATH"
+
+camelcase() {
+    perl -pe 's#(_|^)(.)#\u$2#g'
+}
+
+# Setting fd as the default source for fzf
+
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+
+# To apply the command to CTRL-T as well
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/sawit/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sawit/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/sawit/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sawit/Downloads/google-cloud-sdk/completion.zsh.inc'; fi

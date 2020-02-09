@@ -1,0 +1,14 @@
+{
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"],
+      "initializationOptions": {
+        "usePlaceholders": true
+      }
+    }
+ },
+  "python.pythonPath": "python3",
+  "coc.preferences.formatOnSaveFiletypes": ["python"]
+}

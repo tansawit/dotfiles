@@ -1,0 +1,18 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+	ignore = dirty
+[submodule "zsh/tmux/tmux/plugins/tmux-onedark-theme"]
+	path = zsh/tmux/tmux/plugins/tmux-onedark-theme
+	url = https://github.com/odedlaz/tmux-onedark-theme
+[submodule "tmux/tmux/plugins/tmux-onedark-theme"]
+	path = tmux/tmux/plugins/tmux-onedark-theme
+	url = https://github.com/odedlaz/tmux-onedark-theme
+[submodule "tmux/tmux/plugins/tmux-sensible"]
+	path = tmux/tmux/plugins/tmux-sensible
+	url = https://github.com/tmux-plugins/tmux-sensible
+[submodule "tmux/tmux/plugins/tpm"]
+	path = tmux/tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
+[submodule "tpm"]
+	ignore = dirty
