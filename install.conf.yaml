@@ -1,0 +1,30 @@
+# Settings
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true # Swap original file
+
+# TODO: ?
+- clean: ["~", "~/.config"]
+
+  # Run shell commands
+- shell:
+    # Install submodules
+    - [git submodule update --init --recursive, Installing submodules]
+
+# Symlink files
+- link:
+    # Zsh
+    ~/.zshrc: zsh/zshrc
+    # Git
+    ~/.gitconfig: git/gitconfig
+    # ~/.gitignore_global: git/gitignore_global
+    # Hammerspoon
+    ~/.hammerspoon: hammerspoon
+    # Neovim
+    ~/.config/nvim: nvim
+    # VS Code
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
+    # IDEA
+    ~/.ideavimrc: idea/ideavimrc
