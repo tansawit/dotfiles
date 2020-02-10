@@ -13,3 +13,7 @@
 	trustExitCode = true
 [commit]
 	template = /Users/sawit/.stCommitMsg
+[credential]
+	helper = store
+[http]
+	cookiefile = /Users/sawit/.gitcookies
