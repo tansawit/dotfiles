@@ -60,6 +60,9 @@ Plug 'luochen1990/rainbow'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+
+Plug 'edkolev/tmuxline.vim'
+Plug 'vim-syntastic/syntastic'
 call plug#end()
 
 
@@ -339,8 +342,8 @@ omap if <Plug>(coc-funcobj-i)
 omap af <Plug>(coc-funcobj-a)
 
 " Use <C-d> for select selections ranges, needs server support, like: coc-tsserver, coc-python
-nmap <silent> <C-d> <Plug>(coc-range-select)
-xmap <silent> <C-d> <Plug>(coc-range-select)
+" nmap <silent> <C-d> <Plug>(coc-range-select)
+" xmap <silent> <C-d> <Plug>(coc-range-select)
 
 " Use `:Format` to format current buffer
 command! -nargs=0 Format :call CocAction('format')
@@ -426,18 +429,21 @@ au FileType css setlocal formatprg=prettier\ --parser\ csgo
 " 2 -> solid block
 " 3 -> blinking underscore
 " 4 -> solid underscore
-if exists('$TMUX')
-    " tmux will only forward escape sequences to the terminal if surrounded by a DCS sequence
-    let &t_SI .= "\<Esc>Ptmux;\<Esc>\<Esc>[4 q\<Esc>\\"
-    let &t_EI .= "\<Esc>Ptmux;\<Esc>\<Esc>[2 q\<Esc>\\"
-    autocmd VimLeave * silent !echo -ne "\033Ptmux;\033\033[0 q\033\\"
-else
-    let &t_SI .= "\<Esc>[4 q"
-    let &t_EI .= "\<Esc>[2 q"
-    autocmd VimLeave * silent !echo -ne "\033[0 q"
-endif
 if exists('+termguicolors')
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
   set termguicolors
 endif
+
+" vim-Go
+map <C-n> :cnext<CR>
+map <C-m> :cprevious<CR>
+nnoremap <leader>a :cclose<CR>
+autocmd FileType go nmap <leader>b  <Plug>(go-build)
+autocmd FileType go nmap <leader>r  <Plug>(go-run)
+let g:go_highlight_fields = 1
+
+let g:go_auto_sameids = 1
+
+noremap <leader>d :Dash<CR>
+

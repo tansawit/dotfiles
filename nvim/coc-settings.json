@@ -8,7 +8,7 @@
         "usePlaceholders": true
       }
     }
- },
+  },
   "python.pythonPath": "python3",
   "coc.preferences.formatOnSaveFiletypes": ["python"]
 }
