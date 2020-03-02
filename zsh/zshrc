@@ -1,4 +1,6 @@
 #zshrc
+autoload -Uz compinit
+compinit
 TERM=screen-256color
 source ~/.zsh_plugins.sh
 source ~/.dotfiles/zsh/functions/functions.zsh
