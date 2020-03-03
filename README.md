@@ -7,23 +7,30 @@ These are all the configuration files on my Mac
 
 ## New Mac Install Steps
 
-### Homebrew
-
-Install Hombrew:
+### 1. Install Homebrew
 
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
 
-### Install Patched Font
+### 2. Install Patched Font
 
 - [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
 
+### 3. Setup Brew packages 
+
+```
+git clone https://github.com/tansawit/dotfiles.git
+cd homebrew
+brew bundle
+cd ..
+```
+
 ### Install Applications
 
-See the [list of apps I use](https://github.com/tansawit/my-mac-setup)
+See the [list of apps I use](https://github.com/tansawit/my-mac-setup).
 
 ### Download the dotfiles and set it up
 
-`./install`
+Download the repo then run `./install` to set up the config files
 
 ### Alfred Workflows
 
