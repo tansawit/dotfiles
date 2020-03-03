@@ -30,6 +30,7 @@ export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 
+eval "$(fasd --init auto)"
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/sawit/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sawit/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
