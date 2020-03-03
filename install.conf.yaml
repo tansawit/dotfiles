@@ -12,6 +12,7 @@
 - shell:
     # Install submodules
     - [git submodule update --init --recursive, Installing submodules]
+    - [brew bundle]
 
 # Symlink files
 - link:
@@ -22,6 +23,10 @@
     # ~/.gitignore_global: git/gitignore_global
     # Hammerspoon
     ~/.hammerspoon: hammerspoon
+    # Alacritty
+    ~/alacritty.yml: alacritty/alacritty.yml
+    # TMUX
+    ~/.tmux.conf: tmux/tmux.conf
     # Neovim
     ~/.config/nvim: nvim
     # VS Code
