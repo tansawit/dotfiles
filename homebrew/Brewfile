@@ -11,52 +11,86 @@ tap "homebrew/services"
 tap "minio/stable"
 tap "rigellute/tap"
 tap "yqrashawn/goku"
+# grep replacement https://github.com/beyondgrep/ack3/
 brew "ack"
+# A cat(1) clone with wings.
 brew "bat"
+# ctags https://github.com/universal-ctags/ctags
 brew "ctags"
+# modern ls https://github.com/ogham/exa
 brew "exa"
+# directory jumping https://github.com/clvv/fasd
 brew "fasd"
+# Fast alternative to 'find' https://github.com/sharkdp/fd
 brew "fd"
+# C/C++ and Java libraries for Unicode and globalization
 brew "icu4c"
+# Command-line tool and terminal JSON viewer https://github.com/antonmedv/fx
 brew "fx"
+# A command-line fuzzy finder https://github.com/junegunn/fzf
 brew "fzf"
+# python
 brew "python"
+# gotags
 brew "gotags"
+# prettier curl
 brew "httpie"
+# github git wrapper
 brew "hub"
+# hugo cli
 brew "hugo"
+# create, edit, compose, or convert bitmap images https://github.com/ImageMagick/ImageMagick/
 brew "imagemagick"
+# manage java environment https://github.com/jenv/jenv
 brew "jenv"
+# load-testing tool https://github.com/loadimpact/k6
 brew "k6"
+# java
 brew "maven"
+# command-line system information tool
 brew "neofetch"
+# neovim
 brew "neovim"
+# pandoc
 brew "pandoc"
+# posgresql rdbms
 brew "postgresql"
+# migration to postgresql
 brew "pgloader"
-brew "php@7.3", link: true
+# vim-style file browser
 brew "ranger"
+# ruby environment manager
 brew "rbenv"
+# redis
 brew "redis"
+# recursively searches directories for a regex pattern https://github.com/BurntSushi/ripgrep
 brew "ripgrep"
+# starship prompt https://github.com/starship/starship
 brew "starship"
+# code-searching tool similar to ack, but faster https://github.com/ggreer/the_silver_searcher
 brew "the_silver_searcher"
+# corrects previous console command.
 brew "thefuck"
+# terminal multiplexer
 brew "tmux"
+# count your code quickly https://github.com/XAMPPRocky/tokei
 brew "tokei"
+# tree directory structure
 brew "tree"
+# wget
 brew "wget"
+# yarn package manager
 brew "yarn"
 brew "charmbracelet/tap/glow"
+# shell plugin manager
 brew "getantibody/tap/antibody"
+# git wrapper cli
 brew "github/gh/gh"
+# heroku cli
 brew "heroku/brew/heroku"
 brew "minio/stable/mc"
 brew "minio/stable/minio"
-brew "rigellute/tap/spotify-tui"
+# gokue for km
 brew "yqrashawn/goku/goku"
+# alacritty terminal
 cask "alacritty"
-cask "font-fira-code"
-cask "font-hack-nerd-font"
-cask "insomnia"
-cask "kitty"
