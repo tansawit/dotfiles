@@ -32,6 +32,10 @@ Plug 'easymotion/vim-easymotion'                     " Better Vim Motions
 " Project Navigation
 Plug 'ctrlpvim/ctrlp.vim'                            " search for file in directory
 
+" Hugo
+Plug 'robertbasic/vim-hugo-helper'
+
+
 " Editor Appearance
 Plug 'arcticicestudio/nord-vim'
 Plug 'bling/vim-bufferline'                          " show the list of buffers in the command bar
