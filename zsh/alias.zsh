@@ -18,7 +18,6 @@ alias we='watchexec --exts'
 alias wjs='watchexec --exts js'
 alias wpy='watchexec --exts py'
 alias wtex='watchexec --exts .tex'
-alias f='open .'
 alias pb='pbcopy'
 alias te='tree'
 alias op='open'
@@ -298,3 +297,6 @@ alias ybc='yb-ctl'
 
 # Python venv
 alias acvenv='source venv/bin/activate'
+
+# fasd
+alias nf='f -e nvim' # quick opening files with vim
