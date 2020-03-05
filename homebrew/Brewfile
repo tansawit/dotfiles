@@ -81,6 +81,8 @@ brew "tree"
 brew "wget"
 # yarn package manager
 brew "yarn"
+# zsh
+brew "zsh"
 brew "charmbracelet/tap/glow"
 # shell plugin manager
 brew "getantibody/tap/antibody"
@@ -94,3 +96,33 @@ brew "minio/stable/minio"
 brew "yqrashawn/goku/goku"
 # alacritty terminal
 cask "alacritty"
+# alfred
+cask "alfred"
+# 1password
+cask "1password"
+# karabiner
+cask "karabiner-elements"
+# contexts
+cask "contexts"
+# dropbox
+cask "dropbox"
+# keyboard maestro
+cask "keyboard-maestro"
+# typinator
+cask "typinator"
+# setapp
+cask "setapp"
+# bartender
+cask "bartender"
+# dash
+cask "dash"
+# git tower
+cask "tower"
+# paw
+cask "paw"
+# appcleaner
+cask "appcleaner"
+# sketch
+cask "sketch"
+# tableplus
+cask "tableplus"

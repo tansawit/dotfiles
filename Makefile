@@ -8,7 +8,7 @@ _prepare:
 
 brew:
 	@/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-	@brew list
+	@brew bundle --homebrew/Brewfile
 
 dotfiles:
 	@./install -c config/install.conf.yaml
@@ -16,4 +16,4 @@ dotfiles:
 tools:
 	@./install -c config/tmux.conf.yaml
 
-all: _prepare brew dotfiles
+all: _prepare brew tools dotfiles
