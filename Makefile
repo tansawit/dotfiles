@@ -11,6 +11,9 @@ brew:
 	@brew list
 
 dotfiles:
-	@./install
+	@./install -c config/install.conf.yaml
+
+tools:
+	@./install -c config/tmux.conf.yml
 
 all: _prepare brew dotfiles
