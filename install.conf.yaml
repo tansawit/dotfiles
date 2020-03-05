@@ -31,5 +31,3 @@
     ~/.config/nvim: nvim
     # VS Code
     ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
-    # IDEA
-    ~/.ideavimrc: idea/ideavimrc
