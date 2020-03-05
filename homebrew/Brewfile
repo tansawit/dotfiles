@@ -25,8 +25,6 @@ brew "fasd"
 brew "fd"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c"
-# Command-line tool and terminal JSON viewer https://github.com/antonmedv/fx
-brew "fx"
 # A command-line fuzzy finder https://github.com/junegunn/fzf
 brew "fzf"
 # python
@@ -53,10 +51,6 @@ brew "neofetch"
 brew "neovim"
 # pandoc
 brew "pandoc"
-# posgresql rdbms
-brew "postgresql"
-# migration to postgresql
-brew "pgloader"
 # vim-style file browser
 brew "ranger"
 # ruby environment manager
@@ -79,8 +73,8 @@ brew "tokei"
 brew "tree"
 # wget
 brew "wget"
-# yarn package manager
-brew "yarn"
+# zsh
+brew "zsh"
 brew "charmbracelet/tap/glow"
 # shell plugin manager
 brew "getantibody/tap/antibody"
@@ -94,3 +88,33 @@ brew "minio/stable/minio"
 brew "yqrashawn/goku/goku"
 # alacritty terminal
 cask "alacritty"
+# alfred
+cask "alfred"
+# 1password
+cask "1password"
+# karabiner
+cask "karabiner-elements"
+# contexts
+cask "contexts"
+# dropbox
+cask "dropbox"
+# keyboard maestro
+cask "keyboard-maestro"
+# typinator
+cask "typinator"
+# setapp
+cask "setapp"
+# bartender
+cask "bartender"
+# dash
+cask "dash"
+# git tower
+cask "tower"
+# paw
+cask "paw"
+# appcleaner
+cask "appcleaner"
+# sketch
+cask "sketch"
+# tableplus
+cask "tableplus"

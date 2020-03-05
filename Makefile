@@ -5,3 +5,15 @@ help: ## Print command list
 
 _prepare:
 	@git submodule update --init --recursive
+
+brew:
+	@/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+	@brew bundle --file=homebrew/Brewfile
+
+dotfiles:
+	@./install -c config/install.conf.yaml
+
+tools:
+	@./install -c config/tmux.conf.yaml
+
+all: _prepare brew tools dotfiles

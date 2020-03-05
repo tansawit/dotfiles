@@ -2,13 +2,9 @@
 
 name: tests
 
-# Controls when the action will run. Triggers the workflow on push or pull request 
-# events but only for the master branch
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+# Controls when the action will run. 
+on: [push, pull_request]
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -25,3 +21,9 @@ jobs:
     # Runs a single command using the runners shell
     - name: Test 'make help'
       run: make help
+    - name: Test 'make brew'
+      run: make brew
+    - name: Test 'make dotfiles'
+      run: make dotfiles
+    - name: test 'make all'
+      run: make all
