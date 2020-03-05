@@ -26,6 +26,6 @@ jobs:
     - name: Test 'make dotfiles'
       run: make dotfiles
     - name: Test 'make tools'
-    - run: make tools
+      run: make tools
     - name: test 'make all'
       run: make all
