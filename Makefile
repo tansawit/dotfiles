@@ -13,5 +13,4 @@ brew:
 dotfiles:
 	@./install
 
-all:
-	_prepare brew dotfiles
+all: _prepare brew dotfiles
