@@ -25,8 +25,6 @@ brew "fasd"
 brew "fd"
 # C/C++ and Java libraries for Unicode and globalization
 brew "icu4c"
-# Command-line tool and terminal JSON viewer https://github.com/antonmedv/fx
-brew "fx"
 # A command-line fuzzy finder https://github.com/junegunn/fzf
 brew "fzf"
 # python
@@ -53,10 +51,6 @@ brew "neofetch"
 brew "neovim"
 # pandoc
 brew "pandoc"
-# posgresql rdbms
-brew "postgresql"
-# migration to postgresql
-brew "pgloader"
 # vim-style file browser
 brew "ranger"
 # ruby environment manager
