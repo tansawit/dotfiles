@@ -1,6 +1,3 @@
-- brew:
-  - tmux
-
 # Setup tpm : tmux plugin manager
 - create:
   - ~/.tmux/plugins
