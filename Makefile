@@ -5,3 +5,12 @@ help: ## Print command list
 
 _prepare:
 	@git submodule update --init --recursive
+
+brew:
+	@/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+dotfiles:
+	@./install
+
+all:
+	_prepare brew dotfiles
