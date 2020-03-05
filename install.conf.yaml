@@ -21,8 +21,6 @@
     # Git
     ~/.gitconfig: git/gitconfig
     # ~/.gitignore_global: git/gitignore_global
-    # Hammerspoon
-    ~/.hammerspoon: hammerspoon
     # Alacritty
     ~/alacritty.yml: alacritty/alacritty.yml
     # TMUX
