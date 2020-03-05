@@ -8,7 +8,7 @@ _prepare:
 
 brew:
 	@/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-	@brew bundle --homebrew/Brewfile
+	@brew bundle --file=homebrew/Brewfile
 
 dotfiles:
 	@./install -c config/install.conf.yaml
