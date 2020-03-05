@@ -73,8 +73,6 @@ brew "tokei"
 brew "tree"
 # wget
 brew "wget"
-# yarn package manager
-brew "yarn"
 # zsh
 brew "zsh"
 brew "charmbracelet/tap/glow"
