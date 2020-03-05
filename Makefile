@@ -14,6 +14,6 @@ dotfiles:
 	@./install -c config/install.conf.yaml
 
 tools:
-	@./install -c config/tmux.conf.yml
+	@./install -c config/tmux.conf.yaml
 
 all: _prepare brew dotfiles
