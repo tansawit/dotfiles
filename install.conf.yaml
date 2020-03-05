@@ -12,7 +12,6 @@
 - shell:
     # Install submodules
     - [git submodule update --init --recursive, Installing submodules]
-    - [brew bundle]
 
 # Symlink files
 - link:
