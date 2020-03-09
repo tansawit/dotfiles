@@ -29,6 +29,8 @@ brew "icu4c"
 brew "fzf"
 # python
 brew "python"
+# go
+brew "go"
 # gotags
 brew "gotags"
 # prettier curl
