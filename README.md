@@ -15,12 +15,20 @@ make all
 
 ### neovim
 
-Install Vim Plugins:
+#### Vim Plug-ins
 
 Inside `init.vim`
 
 ```bash
 :PlugInstall
+```
+
+#### Install node for coc.nvim
+
+In terminal:
+
+```bash
+brew install node
 ```
 
 #### Language Support
