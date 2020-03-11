@@ -21,10 +21,12 @@
     ~/.gitconfig: git/gitconfig
     # ~/.gitignore_global: git/gitignore_global
     # Alacritty
-    ~/alacritty.yml: alacritty/alacritty.yml
+    ~/.alacritty.yml: alacritty/alacritty.yml
     # TMUX
     ~/.tmux.conf: tmux/tmux.conf
     # Neovim
     ~/.config/nvim: nvim
+    # Karabiner
+    ~/.config/karabiner.edn: karabiner/karabiner.edn
     # VS Code
     ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
