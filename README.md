@@ -57,4 +57,6 @@ Open Karabiner-Elements application:
 
 In terminal, run:
 
-```goku```
+```bash
+goku
+```
