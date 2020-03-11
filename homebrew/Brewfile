@@ -49,8 +49,6 @@ brew "maven"
 brew "neofetch"
 # neovim
 brew "neovim"
-# node
-brew "node"
 # pandoc
 brew "pandoc"
 # vim-style file browser
