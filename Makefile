@@ -9,12 +9,9 @@ _prepare:
 brew:
 	@/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 	@brew bundle --file=homebrew/Brewfile
-	@pip3 install neovim
 
 dotfiles:
 	@./install -c config/install.conf.yaml
-	@goku
-	@echo "Don't forget to run 'uz'!"
 
 tools:
 	@./install -c config/tmux.conf.yaml

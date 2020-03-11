@@ -7,35 +7,64 @@ These are all the configuration files on my Mac
 
 ## New Mac Install Steps
 
-### 1. Install Homebrew
+### Run Makefile
 
-`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-
-### 2. Install Patched Font
-
-- [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono)
-
-### 3. Setup Brew packages 
-
-```
-git clone https://github.com/tansawit/dotfiles.git
-cd homebrew
-brew bundle
-cd ..
+```bash
+make all
 ```
 
-### Install Applications
+### neovim
 
-See the [list of apps I use](https://github.com/tansawit/my-mac-setup).
+#### Vim Plug-ins
 
-### Download the dotfiles and set it up
+Inside `init.vim`
 
-Download the repo then run `./install` to set up the config files
+```bash
+:PlugInstall
+```
 
-### Alfred Workflows
+#### Install node for coc.nvim
 
-Download the workflows I use my Dropbox sync and Nikita Voloboev's [repo](https://github.com/learn-anything/alfred-workflows#readme)
+In terminal:
 
-### Keyboard Maestro
+```bash
+brew install node
+```
 
-Install Nikita's [KM macros](https://wiki.nikitavoloboev.xyz/macos/macos-apps/keyboard-maestro/km-macros)
+#### Language Support
+
+##### Go
+
+In neovim
+
+```bash
+:GoInstallBinaries
+```
+
+##### Rust
+
+In neovim
+
+```bash
+:CocInstall coc-rls
+```
+
+##### Python
+
+In terminal
+
+```bash
+pip3 install neovim
+```
+
+### Set karabiner
+
+Open Karabiner-Elements application:
+
+- In the profile section, add the profile `JS`
+
+In terminal, run:
+
+```bash
+goku
+```

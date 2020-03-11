@@ -88,6 +88,10 @@ brew "minio/stable/mc"
 brew "minio/stable/minio"
 # gokue for km
 brew "yqrashawn/goku/goku"
+# jetbrains mono nerd font
+cask "font-jetbrainsmono-nerd-font"
+# jetbrains mono nerd font mono font 
+cask "font-jetbrainsmono-nerd-font-mono"
 # alacritty terminal
 cask "alacritty"
 # alfred

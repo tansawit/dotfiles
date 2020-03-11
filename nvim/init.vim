@@ -67,6 +67,7 @@ Plug 'prettier/vim-prettier', {
 
 Plug 'edkolev/tmuxline.vim'
 Plug 'vim-syntastic/syntastic'
+Plug 'rust-lang/rust.vim'
 call plug#end()
 
 
@@ -449,5 +450,7 @@ let g:go_highlight_fields = 1
 
 let g:go_auto_sameids = 1
 
-noremap <leader>d :Dash<CR>
+noremap <leader>d :Dash<CR>go
 
+" Rust
+let g:rustfmt_autosave = 1

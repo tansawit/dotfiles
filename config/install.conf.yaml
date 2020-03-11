@@ -17,17 +17,16 @@
 - link:
     # Zsh
     ~/.zshrc: zsh/zshrc
-    ~/.dotfiles/zsh: zsh
     # Git
     ~/.gitconfig: git/gitconfig
     # ~/.gitignore_global: git/gitignore_global
     # Alacritty
-    ~/.config/alacritty/alacritty.yml: alacritty/alacritty.yml
+    ~/.alacritty.yml: alacritty/alacritty.yml
     # TMUX
-    ~/.config/tmux.conf: tmux/tmux.conf
+    ~/.tmux.conf: tmux/tmux.conf
     # Neovim
     ~/.config/nvim: nvim
-    # VS Code
-    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
     # Karabiner
     ~/.config/karabiner.edn: karabiner/karabiner.edn
+    # VS Code
+    ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
