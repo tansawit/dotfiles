@@ -1,7 +1,7 @@
 call plug#begin('~/.config/nvim/nvim/plugged')
 " Declare the list of plugins.
 
-" Quality of Life
+                                                     " Quality of Life
 Plug 'itchyny/lightline.vim'                         " customizable and light status line
 Plug 'junegunn/vim-easy-align'                       " text alignment
 Plug 'ryanoasis/vim-devicons'                        " file type icons
@@ -10,7 +10,7 @@ Plug 'tweekmonster/impsort.vim', {'for': 'python'}   " color and sort imports
                                                      " Navigation
 Plug '/usr/local/opt/fzf'                            " local fzf
 
-" File Editing
+                                                     " File Editing
 Plug 'rizzatti/dash.vim'                             " dash integration
 Plug 'unblevable/quick-scope'                        " lightning fast left-right movement
 Plug 'junegunn/fzf.vim'                              " fuzzy searching
@@ -18,25 +18,25 @@ Plug 'jiangmiao/auto-pairs'                          " insert or delete brackets
 Plug 'SirVer/ultisnips'                              " code snippets
 Plug 'AndrewRadev/splitjoin.vim'                     " split/join line into one or multiple lines
 Plug 'tpope/vim-repeat'                              " repeat previous command
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}      " code completion
 Plug 'arthurxavierx/vim-caser'                       " change variable case
 Plug 'tpope/vim-commentary'                          " quick comment/uncomment
 Plug 'ConradIrwin/vim-bracketed-paste'               " bracket pasting
 
-" File Navigation
+                                                     " File Navigation
 Plug 'haya14busa/incsearch.vim'                      " Incremental searching
 Plug 'haya14busa/incsearch-fuzzy.vim'
 Plug 'haya14busa/incsearch-easymotion.vim'
 Plug 'easymotion/vim-easymotion'                     " Better Vim Motions
 
-" Project Navigation
+                                                     " Project Navigation
 Plug 'ctrlpvim/ctrlp.vim'                            " search for file in directory
 
-" Hugo
+                                                     " Hugo
 Plug 'robertbasic/vim-hugo-helper'
 
 
-" Editor Appearance
+                                                     " Editor Appearance
 Plug 'arcticicestudio/nord-vim'
 Plug 'bling/vim-bufferline'                          " show the list of buffers in the command bar
 Plug 'tpope/vim-surround'                            " easy quote/bracket
@@ -44,7 +44,7 @@ Plug 'tpope/vim-fugitive'                            " git wrappers
 Plug 'airblade/vim-gitgutter'                        " show git changes
 Plug 'tpope/vim-abolish'                             " asily search for, substitute, and abbreviate multiple variants of a word
 
-" Language support
+                                                     " Language support
 Plug 'davidhalter/jedi-vim', {'for': 'python'}       " python autocompletion
 Plug 'ekalinin/Dockerfile.vim'                       " docker support
 Plug 'elzr/vim-json'                                 " json support
@@ -54,7 +54,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'MaxMEllon/vim-jsx-pretty'
 
 
-Plug 'godlygeek/tabular'                             " align text at character
+Plug 'junegunn/vim-easy-align'                       " align text at character
 Plug 'majutsushi/tagbar'
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
@@ -454,3 +454,11 @@ noremap <leader>d :Dash<CR>go
 
 " Rust
 let g:rustfmt_autosave = 1
+
+
+" vim-easy-align
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
