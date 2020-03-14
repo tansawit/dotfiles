@@ -17,6 +17,8 @@
 - link:
     # Zsh
     ~/.zshrc: zsh/zshrc
+    # Starship prompt
+    ~/.config/starship.toml: zsh/starship.toml
     # Git
     ~/.gitconfig: git/gitconfig
     # ~/.gitignore_global: git/gitignore_global
