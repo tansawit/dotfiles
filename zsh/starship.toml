@@ -10,5 +10,4 @@ symbol = "❯"     # The "symbol" segment is being set to "➜"
 disabled = true
 
 [git_branch]
-symbol = "🌱 "
 truncation_symbol = ""

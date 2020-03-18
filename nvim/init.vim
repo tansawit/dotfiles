@@ -49,7 +49,8 @@ Plug 'davidhalter/jedi-vim', {'for': 'python'}       " python autocompletion
 Plug 'ekalinin/Dockerfile.vim'                       " docker support
 Plug 'elzr/vim-json'                                 " json support
 Plug 'fatih/vim-go', {'for':'go'}                    " golang support
-Plug 'gabrielelana/vim-markdown', {'for':'markdown'} " markdown support
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown', {'for':'markdown'}
 Plug 'pangloss/vim-javascript'
 Plug 'MaxMEllon/vim-jsx-pretty'
 
@@ -462,3 +463,9 @@ xmap ga <Plug>(EasyAlign)
 
 " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
+
+" Markdown
+"
+let g:markdown_fenced_languages = ['html', 'css', 'scss', 'sql', 'javascript', 'go', 'python', 'bash=sh', 'c', 'ruby','rust']
+
+

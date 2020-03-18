@@ -300,3 +300,7 @@ alias acvenv='source venv/bin/activate'
 
 # fasd
 alias nf='f -e nvim' # quick opening files with vim
+
+#rust
+alias rc='cargo'
+alias rcr='cargo run'
